@@ -2,11 +2,7 @@ from pyrogram import Client, filters, types
 from watchdict import WatchDict
 import re
 wd = WatchDict('conf.json')
-proxy = {
-     "scheme": "http",  # "socks4", "socks5" and "http" are supported
-     "hostname": "192.168.38.74",
-     "port": 8080,
- }
+
 
 bot = Client('bot', wd['api_id'], wd['api_hash'], bot_token=wd['api_token'], proxy=proxy)
 admins = filters.user(wd['admins'])

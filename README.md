@@ -54,9 +54,9 @@
 
     ```bash
 
-    git clone irsimbot
+    git clone https://github.com/ChocolateFr/IRSim.git
 
-    cd irsimbot
+    cd IRSim
 
     ```
 
